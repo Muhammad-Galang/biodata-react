@@ -1,0 +1,36 @@
+/* ContactStyle.css */
+.contact-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  animation: fadeInUp 1.5s ease; /* Animasi fadeInUp */
+
+  /* Menambahkan efek shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333; /* Warna judul */
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Animasi dengan animate.css */
+@import 'animate.css';
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

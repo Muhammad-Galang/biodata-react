@@ -1,0 +1,51 @@
+/* HeroSectionStyle.css */
+.hero-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 300px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: 300px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  border-radius: 50%; /* Memberikan border radius 50% untuk sudut yang bulat */
+  margin-bottom: 20px; /* Memberikan jarak di bawah gambar */
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.hero-section p {
+  font-size: 2.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.hero-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Animasi dengan animate.css */
+@import 'animate.css';
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
